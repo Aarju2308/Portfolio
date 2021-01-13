@@ -1,0 +1,725 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  height: 90vh;
+  margin: 0%;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  position: relative;
+  background-color: #3340FF;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+  outline: none;
+}
+
+button:hover {
+  background-color: #5560FF;
+}
+
+a:hover {
+  color: #aaaaaa;
+}
+
+p {
+  color: #6d6d6d;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  color: #6d6d6d;
+  width: 90%;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 0%;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1em 2em;
+}
+
+header .logo {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: black;
+}
+
+header .logo span {
+  color: #3340FF;
+}
+
+header ul {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul .nav-links {
+  padding: 1em;
+}
+
+header ul a {
+  color: #6d6d6d;
+}
+
+header ul button {
+  margin-left: .5em;
+  padding: 10px 20px;
+}
+
+header ul button a {
+  color: #ffffff;
+}
+
+.hero {
+  padding: 0% 2em;
+}
+
+.hero .content h1 {
+  font-size: 2em;
+  font-weight: 800;
+}
+
+.hero .content span {
+  color: #3340FF;
+}
+
+.hero .about button {
+  margin: 5% 0;
+  padding: 13px 26px;
+}
+
+.hero .about button a {
+  color: white;
+}
+
+.hero .hero-img img {
+  display: none;
+}
+
+.newsletter .articles {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.newsletter .articles h3 {
+  font-weight: 400;
+  font-size: 1em;
+  color: #6d6d6d;
+}
+
+.newsletter-box {
+  margin: 0 2em;
+  background-color: #f7f7f7;
+}
+
+.newsletter-box .tittle {
+  padding: 0.5em 2em;
+}
+
+.newsletter-box .tittle h2 {
+  font-weight: 700;
+  margin-bottom: 0%;
+}
+
+.newsletter-box .tittle p {
+  font-size: 13px;
+}
+
+.newsletter-box .mail {
+  margin-left: 17em;
+}
+
+.newsletter-box .mail .mail-input input {
+  width: 14em;
+  height: 2em;
+  border: 1px solid black;
+  border-radius: 10px 0 0 10px;
+  outline: none;
+  font-weight: 500;
+}
+
+.newsletter-box .mail .mail-input button {
+  border-radius: 0 10px 10px 0;
+  height: 2em;
+}
+
+.newsletter-box .mail .mail-input button a {
+  color: white;
+}
+
+section {
+  margin: 5%;
+}
+
+section img {
+  margin-top: 15%;
+  width: 80%;
+}
+
+section .my-skills img {
+  width: 40%;
+  float: left;
+  padding: 0 2em 0 0;
+}
+
+section .my-skills .skills-info {
+  padding-top: 10%;
+  margin: 10px;
+}
+
+section .my-skills .skills-info .cards-layout {
+  margin-right: 2em;
+  background-color: #6d6d6d;
+  display: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section .my-skills .skills-info .cards-layout h4 {
+  margin-bottom: 0.5em;
+  font-weight: 400;
+}
+
+section .my-skills .skills-info .cards-layout h2 {
+  text-align: center;
+  margin-top: 0%;
+  font-weight: 600;
+}
+
+section .skills-icons {
+  padding-top: 10%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% auto;
+      grid-template-columns: 60% auto;
+  margin: 4em  2em;
+}
+
+section .skills-icons .row2 {
+  margin: 10% 0;
+}
+
+section .skills-icons button {
+  background-color: #f7f7f7;
+  color: black;
+  margin: 0 1em;
+  width: 20%;
+}
+
+section .skills-icons button h3 {
+  color: #6d6d6d;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+section .skills-icons button img {
+  width: 40%;
+}
+
+section .skills-icons .computer {
+  margin-left: 2em;
+  width: 100%;
+}
+
+.socialmedia {
+  margin: 0 2em;
+  background-color: #f7f7f7;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% auto;
+      grid-template-columns: 60% auto;
+}
+
+.socialmedia .social-info {
+  margin: 0%;
+  padding: 0.5em 2em;
+}
+
+.socialmedia .social-info h2 {
+  margin-bottom: 0%;
+}
+
+.socialmedia .social-icons {
+  margin: auto;
+}
+
+.socialmedia .social-icons img {
+  margin: 0% .5em;
+  width: 30px;
+  height: 30px;
+}
+
+.recent-work .fruitsapp {
+  margin-top: 3em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% auto;
+      grid-template-columns: 40% auto;
+}
+
+.recent-work .fruitsapp .fruits-desc {
+  margin: auto;
+  padding: 0 2em;
+}
+
+.recent-work .leica-m6 {
+  margin-top: 3em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% auto;
+      grid-template-columns: 60% auto;
+}
+
+.recent-work .leica-m6 .leica-desc {
+  margin: auto;
+  padding: 0 2em;
+}
+
+.recent-work .credit-card {
+  margin-top: 3em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% auto;
+      grid-template-columns: 40% auto;
+}
+
+.recent-work .credit-card .credit-desc {
+  margin: auto;
+  padding: 0 2em;
+}
+
+.hire-me {
+  margin: 0 2em;
+  background-color: #f7f7f7;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% auto;
+      grid-template-columns: 60% auto;
+}
+
+.hire-me .hireme-title {
+  margin: 0;
+  padding: 0.5em 2em;
+}
+
+.hire-me .hireme-title h2 {
+  margin-bottom: 0%;
+}
+
+.hire-me .hireme {
+  margin: auto;
+}
+
+.hire-me .hireme button {
+  width: 10em;
+  height: 3em;
+}
+
+.hire-me .hireme button a {
+  color: #ffffff;
+}
+
+.end-greeting {
+  margin: 2em;
+}
+
+.end-greeting h1 {
+  margin-top: 0%;
+  font-size: 1.5em;
+  font-weight: 900;
+  margin-bottom: 0%;
+}
+
+.end-greeting h3 {
+  font-size: 1em;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-weight: 500;
+}
+
+.end-greeting button {
+  -webkit-box-shadow: 5px 5px 5px #6d6d6d;
+          box-shadow: 5px 5px 5px #6d6d6d;
+  background-color: #ffffff;
+  height: 3em;
+}
+
+.end-greeting button a {
+  color: #3340FF;
+}
+
+.end-greeting button :hover {
+  color: #5560FF;
+}
+
+.contact-me {
+  margin: 2em 0 0 14em;
+}
+
+.contact-me .specs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+}
+
+.contact-me .specs .spec1 img {
+  width: 25px;
+}
+
+.contact-me .specs .spec1 h3 {
+  font-size: 1em;
+  font-weight: 300;
+  display: inline-block;
+}
+
+footer {
+  background-color: #000000;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+footer .footer-head {
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 2em;
+}
+
+footer h1 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 3.5em;
+}
+
+footer .footer-desc {
+  margin: 2em 6em;
+}
+
+footer button {
+  margin-bottom: 3em;
+  height: 3em;
+  width: 18em;
+}
+
+footer button a {
+  font-size: 1.2em;
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 850px) {
+  header {
+    padding: 2em 4em;
+  }
+  header .logo {
+    font-size: 1.5em;
+  }
+  header .nav-links {
+    padding: 8em;
+  }
+  .hero {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 60% auto;
+        grid-template-columns: 60% auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .hero .content {
+    margin: auto 2em;
+  }
+  .hero .content h1 {
+    font-size: 2em;
+  }
+  .hero .hero-img img {
+    display: unset;
+  }
+  .newsletter-box {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50%  auto;
+        grid-template-columns: 50%  auto;
+  }
+  .newsletter-box .mail {
+    margin: auto;
+  }
+  section .my-skills {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% auto;
+        grid-template-columns: 50% auto;
+  }
+  section .my-skills img {
+    margin-left: 2em;
+    width: 60%;
+  }
+  section .skills-icons {
+    padding: 0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% auto;
+        grid-template-columns: 50% auto;
+  }
+  section .skills-icons .computer {
+    margin: auto;
+    width: 60%;
+  }
+  .end-greeting {
+    margin-right: 40%;
+  }
+  .end-greeting h1 {
+    font-size: 2em;
+  }
+  .contact-me {
+    margin-left: 60%;
+  }
+}
+
+@media only screen and (min-width: 1150px) {
+  header {
+    padding: 2em 6em;
+  }
+  header ul .nav-links {
+    padding: 2.5em;
+  }
+  .hero {
+    padding: 0 4em;
+  }
+  .hero .content h1 {
+    font-size: 2.5em;
+  }
+  .hero .hero-img img {
+    width: 350px;
+    padding-left: 10%;
+  }
+  .newsletter-box .tittle {
+    padding: 0.5em 4em;
+  }
+  .newsletter-box .mail {
+    margin: auto 4em;
+  }
+  .newsletter-box .mail .mail-input {
+    padding-left: 30%;
+  }
+  .skills .my-skills {
+    -ms-grid-columns: 40% 40%;
+        grid-template-columns: 40% 40%;
+  }
+  .skills .my-skills img {
+    width: 250px;
+  }
+  .skills .my-skills .skills-info {
+    margin: auto;
+  }
+  .skills .skills-icons {
+    -ms-grid-columns: 40% 50%;
+        grid-template-columns: 40% 50%;
+  }
+  .skills .skills-icons .icons .row2 {
+    margin-top: 1em;
+  }
+  .skills .skills-icons .computer {
+    width: 250px;
+    margin: auto;
+  }
+  .socialmedia .social-info {
+    margin: auto 4em;
+  }
+  .recent-work {
+    margin-top: 0;
+  }
+  .recent-work .fruitsapp {
+    margin-top: 0;
+    -ms-grid-columns: 40% 50%;
+        grid-template-columns: 40% 50%;
+  }
+  .recent-work .fruitsapp img {
+    margin-left: 4em;
+  }
+  .recent-work .leica-m6 {
+    -ms-grid-columns: 50% 40%;
+        grid-template-columns: 50% 40%;
+  }
+  .recent-work .leica-m6 .leica-desc {
+    margin-left: 2em;
+  }
+  .recent-work .leica-m6 img {
+    margin-left: 4em;
+  }
+  .recent-work .credit-card {
+    -ms-grid-columns: 40% 50%;
+        grid-template-columns: 40% 50%;
+  }
+  .recent-work .credit-card img {
+    margin-left: 4em;
+  }
+  .hire-me .hireme-title {
+    margin: auto 4em;
+  }
+  .end-greeting {
+    margin-right: 40%;
+    margin-left: 6em;
+  }
+  footer .footer-desc {
+    margin: 3em 12em;
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+  .nav-container .logo {
+    font-size: 1.5em;
+  }
+  .nav-container li {
+    margin: auto 1em;
+  }
+  .nav-container button {
+    margin: auto 2em;
+  }
+  .hero .content {
+    margin-left: 6em;
+  }
+  .hero .content h1 {
+    font-size: 4em;
+    margin-bottom: 0%;
+  }
+  .hero .about p {
+    font-size: 1.5em;
+  }
+  .hero button {
+    width: 15em;
+    height: 4em;
+  }
+  .hero button a {
+    font-size: 1.3em;
+  }
+  .hero .hero-img {
+    width: 100%;
+  }
+  .hero .hero-img img {
+    width: 90%;
+  }
+  .newsletter-box .tittle h2 {
+    font-size: 2em;
+  }
+  .newsletter-box .tittle p {
+    font-size: 1em;
+  }
+  .skills {
+    margin-top: 0%;
+  }
+  .skills .my-skills {
+    -ms-grid-columns: 40% 40%;
+        grid-template-columns: 40% 40%;
+  }
+  .skills .my-skills img {
+    margin-left: 6em;
+    width: 70%;
+  }
+  .skills .my-skills .skills-info {
+    margin-left: 2em;
+  }
+  .skills .skills-icons {
+    margin-top: 5em;
+    -ms-grid-columns: 40% 40%;
+        grid-template-columns: 40% 40%;
+  }
+  .skills .skills-icons .icons {
+    margin: auto 6em;
+  }
+  .skills .skills-icons .computer {
+    width: 60%;
+    padding: auto;
+  }
+  .socialmedia {
+    -ms-grid-columns: 50% auto;
+        grid-template-columns: 50% auto;
+  }
+  .socialmedia .social-info {
+    margin-left: 6em;
+  }
+  .socialmedia .social-info h2 {
+    font-size: 2em;
+  }
+  .socialmedia .social-info p {
+    font-size: 1em;
+  }
+  .socialmedia .social-icons img {
+    width: 3em;
+    margin: auto 2em;
+  }
+  .recent-work h3 {
+    font-size: 2em;
+  }
+  .recent-work .desc {
+    font-size: 1.3em;
+  }
+  .end-greeting {
+    margin-left: 10em;
+  }
+  .end-greeting h1 {
+    font-size: 3em;
+  }
+  .end-greeting h3 {
+    font-size: 1.5em;
+  }
+  .end-greeting p {
+    font-size: 1em;
+  }
+  .end-greeting button {
+    width: 14em;
+    height: 5em;
+  }
+  .end-greeting button a {
+    font-size: 1.2em;
+  }
+  .contact-me h3 {
+    font-size: 1.5em;
+  }
+  .contact-me p {
+    font-size: 1.2em;
+  }
+  .contact-me .specs .spec1 img {
+    width: 40px;
+  }
+  .contact-me .specs .spec1 h3 {
+    margin: 1em 1.5em;
+  }
+  footer .footer-desc {
+    margin: 2em 22em;
+  }
+}
+/*# sourceMappingURL=style.css.map */

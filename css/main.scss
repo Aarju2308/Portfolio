@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+body{
+    height: 90vh;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+button{
+    position: relative;
+    background-color: #3340FF;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    outline: none;
+
+}
+
+button:hover{
+    background-color: #5560FF;
+}
+
+p{
+    color: #6d6d6d;
+}
+
+ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    color: #6d6d6d;
+    width: 90%;
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 4em;
+
+    .logo{
+        font-weight: 600;
+        padding-top: 1.2%;
+        color: black;
+        
+        span{
+            color: #3340FF;
+        }
+    }
+
+    ul{
+        display: flex;
+        top: 50%;
+
+        .nav-links{
+            padding: 8% 6em 0 0 ;
+        }
+
+        a{
+            display: block;
+            padding: 0  2rem;
+            color: #6d6d6d;
+        }
+
+        button{
+            padding: 13px 26px;
+
+            a{
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+.hero{
+    display: grid;
+    grid-template-columns: 60% auto;
+    align-items: center;
+    padding: 0% 4em;
+}
+
+.content{
+    h1{
+        font-size: 2.5em;
+        font-weight: 800;
+    }
+
+    span{
+        color: #3340FF;
+    }
+}
+
+
+.about{
+
+    button{
+        margin: 5% 0;
+        padding: 13px 26px;
+
+        a{
+            color: white;
+        }
+    }
+    
+}
+
+.newsletter{
+
+    .articles{
+        align-items: center;
+        color: #6d6d6d;
+        justify-content: center;
+        text-align: center;
+        font-weight: 100;
+
+        h3{
+            font-weight: 400;
+            font-size: 1em;
+        }
+    }
+}
+
+.newsletter-box{
+    background-color: #f7f7f7;
+    display: grid;
+    grid-template-columns: 66% auto;
+
+    .tittle{
+        padding: 0.5em 4em;
+
+        h2{
+            font-weight: 700;
+        }
+    }
+
+    .mail{
+
+        margin: auto;
+
+        .mail-input{
+            input{
+                width: 18em;
+                height: 3em;
+                border: 1px solid black;
+                border-radius: 10px 0 0 10px;
+                outline: none;
+                font-weight: 500;
+            }
+            button{
+                border-radius: 0 10px 10px 0;
+                height: 3em;
+                
+                a{
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+section{
+    margin: 5%;
+    
+    img{
+        width: 70%;
+    }
+
+    .my-skills{
+        display: grid;
+        grid-template-columns: 40% auto;
+
+        .skills-info{
+
+            .cards-layout{
+                display: flex;
+                justify-content: space-around;
+
+                h4{
+                    margin-bottom: 0.5em;
+                    font-weight: 400;
+                }
+                h2{
+                    text-align: center;
+                    margin-bottom: 0%;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
+    .skills-icons{
+        display: grid;
+        grid-template-columns: 60% auto;
+        margin: 4em  2em;
+
+        .row2{
+            margin: 10% 0;
+        }
+
+        button{
+            background-color: #f7f7f7;
+            color: black;
+            margin: 0 1em;
+            width: 20%;
+
+            h3{
+                color: #6d6d6d;
+                font-size: 15px;
+                font-weight: 300;
+            }
+
+            img{
+                width: 40%;
+            }
+        }
+
+        .computer{
+            width: 60%;
+        }
+    }
+    
+}
+
+.socialmedia{
+    background-color: #f7f7f7;
+    display: grid;
+    grid-template-columns: 60% auto;
+
+    .social-info{
+        margin: 0%;
+        padding: 0.5em 4em;
+    }
+
+    .social-icons{
+        margin: auto;
+        img{
+            margin: 0% 1em;
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+
+.recent-work{
+    .fruitsapp{
+        margin-top: 6em;
+        display: grid;
+        grid-template-columns: 40% auto;
+
+        .fruits-desc{
+            margin: auto;
+            padding: 0 5em; 
+        }
+    }
+
+    .leica-m6{
+        margin-top: 6em;
+        display: grid;
+        grid-template-columns: 60% auto;
+
+        .leica-desc{
+            margin: auto;
+            padding: 0 5em;
+        }
+    }
+
+    .credit-card{
+        margin-top: 6em;
+        display: grid;
+        grid-template-columns: 40% auto;
+
+        .credit-desc{
+            margin: auto;
+            padding: 0 5em ;
+        }
+    }
+}
+
+.hire-me{
+    background-color: #f7f7f7;
+    display: grid;
+    grid-template-columns: 60% auto;
+
+    .hireme-title{
+        margin: 0;
+        padding: 0.5em 4em;
+    }
+
+    .hireme{
+        margin: auto;
+
+        button{
+            width: 10em;
+            height: 3em;
+
+            a{
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+.end-greeting{
+    margin: 3em;
+
+    h1{
+        font-size: 3em;
+        font-weight: 900;
+        margin-bottom: 0%;
+    }
+
+    h3{
+        margin-top: 0%;
+        margin-bottom: 0%;
+        font-weight: 500;
+    }
+
+    button{
+        box-shadow: 5px 5px 5px #6d6d6d;
+        background-color: #ffffff;
+        height: 3em;
+
+        a{
+            color: #3340FF;
+        }
+    }
+}
+
+.end-greeting{
+    margin-right: 50%;
+}
+
+.contact-me{
+    margin-left: 70%;
+
+    .specs{
+        display: grid;
+        grid-template-rows:auto;
+
+        .spec1{
+            padding: auto;
+            align-items: center;
+            img{
+                width: 50px;
+                margin-right: 5%;
+            }
+            h3{
+                display: inline-block;
+            }
+        }
+    }
+}
+
+footer{
+    background-color: #000000;
+    align-items: center;
+    text-align: center;
+
+    .footer-head{
+        text-transform: uppercase;
+        color: #ffffff;
+        padding-top: 2em;
+        
+    }
+    h1{
+        margin: 0;
+        color: #ffffff;
+        font-size: 3.5em;
+    }
+
+    .footer-desc{
+        margin: 2em 6em;
+    }
+
+    button{
+        height: 3em;
+        width: 21em;
+        a{
+            font-size: 1.5em;
+            color: #ffffff;
+        }
+    }
+}
